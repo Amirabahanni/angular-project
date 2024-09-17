@@ -1,0 +1,81 @@
+.statistics {
+    display: flex;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.stat-image {
+    flex: 1;
+    text-align: center;
+    margin: 1rem;
+}
+
+.stat-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stat-details {
+    flex: 1;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.stat-details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.stat-details p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.stats {
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem 0;
+    justify-content: center;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 2rem;
+    color: #6a11cb;
+}
+
+.stat p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cta-buttons .btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #6a11cb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #4713b7;
+}

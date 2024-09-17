@@ -1,0 +1,61 @@
+.registration {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(to right, #dadcdd, #eaeef6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures full height to center vertically */
+}
+
+h2 {
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(249, 249, 249);
+    border-radius: 10%;
+    padding: 2rem;  /* Reduced padding */
+    width: 100%;
+    max-width: 400px;  /* Ensures the form is not too wide */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a shadow for better appearance */
+}
+
+form label {
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    max-width: 300px; /* Reduced width for smaller form elements */
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+form button {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 300px; /* Ensures the button is not too wide */
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
