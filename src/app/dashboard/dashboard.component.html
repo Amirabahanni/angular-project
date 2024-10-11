@@ -1,0 +1,36 @@
+<div class="dashboard">
+  <!-- Heartbeat Rate and Main Information -->
+  <div class="main-info">
+    <div class="heartbeat-rate">
+      <h2>{{ heartRate }} BPM</h2>
+    </div>
+
+    <!-- ECG Visualization -->
+    <div class="ecg-visualization" id="ecg"></div>
+  </div>
+
+  <!-- Detailed Statistics -->
+  <div class="statistics">
+    <h3>Statistiques</h3>
+    <p>Moyenne : {{ avgHeartbeat }} BPM</p>
+    <p>Maximum : {{ maxHeartbeat }} BPM</p>
+    <p>Minimum : {{ minHeartbeat }} BPM</p>
+  </div>
+
+  <!-- Data Analysis and AI Response -->
+  <div class="data-analysis">
+    <h3>Analyse des Données</h3>
+    <button (click)="analyzeData()">Analyser les Données</button>
+    <p>{{ analysisResult ? analysisResult : 'Aucun résultat d\'analyse pour l\'instant.' }}</p>
+  </div>
+
+  <!-- AI Input/Output Section -->
+  <div class="ai-response">
+    <h3>Entrée/Sortie IA</h3>
+    <textarea placeholder="Entrez une question"></textarea>
+<!-- Make sure the button uses the correct method 'askQuestion' -->
+<button (click)="askQuestion()">Poser une question à l'IA</button>
+
+    <p>{{ aiResponse ? aiResponse : 'Aucune réponse pour l\'instant.' }}</p>
+  </div>
+</div>
